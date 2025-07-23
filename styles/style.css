@@ -14,6 +14,14 @@
   display: flex;
 }
 
+.btn-primary {
+  color: white;
+  background-color: rgba(233, 90, 8, 1);
+  border: none;
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 30px;
+}
 /* colors */
 .white-3 {
   color: rgba(137, 135, 161, 1);
@@ -23,15 +31,17 @@
   color: rgba(233, 90, 8, 1);
 }
 
-/* header styles */
-header {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
 /* body */
 body {
   max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* header styles */
+header,
+.our-plants,
+.flower-lover {
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -73,4 +83,115 @@ body {
 
 .banner-right {
   width: 570px;
+}
+
+/* body styles */
+
+/* our-plants section */
+.our-plants {
+  margin-top: 120px;
+}
+.our-plants-container {
+  justify-content: center;
+  text-align: center;
+}
+
+.our-plants-title {
+  font-size: 3.15rem;
+  font-weight: 700;
+}
+
+.our-plants-description {
+  width: 888px;
+}
+
+.card-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px 20px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-NP {
+  text-align: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.flower-lover {
+  margin-top: 210px;
+  gap: 60px;
+}
+
+.flower-lover img {
+  width: 540px;
+  height: 597px;
+}
+
+.flower-lover-container {
+  /* text-align: center; */
+  align-items: center;
+}
+.flower-lover-title {
+  font-size: 3.12rem;
+  font-weight: 700;
+}
+
+.flower-lover-description {
+  margin-top: 30px;
+  flex-direction: column;
+  gap: 30px;
+  /* align-items: center; */
+}
+
+/* media query for mobile */
+
+@media (max-width: 576px) {
+  * {
+    margin: 10px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-right {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .banner-left {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .banner-left-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .our-plants-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .our-plants-description {
+    width: 336px;
+  }
+
+  .card-container {
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 28px;
+  }
+  .card img {
+    width: 100%;
+  }
+
+  .flower-lover {
+    flex-direction: column;
+  }
 }
