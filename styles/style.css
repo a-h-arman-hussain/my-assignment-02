@@ -41,7 +41,8 @@ body {
 header,
 .our-plants,
 .flower-lover,
-.latest-deals {
+.latest-deals,
+.foorer-2 {
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -256,6 +257,83 @@ header,
   padding: 5px;
 }
 
+/* footer */
+
+/* footer 1 */
+
+.footer-1 {
+  margin-top: 130px;
+}
+
+.footer-1 > img {
+  width: 100%;
+  position: relative;
+}
+
+.footer-1 > img {
+  opacity: 80%;
+}
+
+.footer-1-content {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-1-content > h1 {
+  font-size: 3.12rem;
+  font-weight: 700;
+}
+
+.footer-1-content-form {
+  width: 830px;
+  height: 50px;
+}
+
+.footer-1-content-form > input {
+  width: 70%;
+  height: 90%;
+}
+.footer-1-content-form > button {
+  width: 20%;
+  height: 100%;
+}
+
+/* footer 2 */
+.foorer-2 {
+  justify-content: space-around;
+  padding: 60px;
+}
+
+.footer-2-left {
+  width: 359px;
+}
+.footer-2-left > img {
+  margin-bottom: 20px;
+}
+
+.footer-2-middle {
+  gap: 40px;
+}
+
+.ul-left > li,
+.ul-right > li {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.ul-left > li a,
+.ul-right > li a {
+  text-decoration: none;
+  color: black;
+}
+
 /* media query for mobile */
 
 @media (max-width: 576px) {
@@ -347,5 +425,15 @@ header,
 
   .latest-deals-image-container {
     flex-direction: column;
+  }
+  .foorer-2 {
+    flex-direction: column;
+    justify-content: start;
+    padding: 60px;
+  }
+  .footer-2-middle {
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
   }
 }
