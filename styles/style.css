@@ -262,24 +262,16 @@ header,
 /* footer 1 */
 
 .footer-1 {
+  max-width: 1440px;
+  height: 533px;
+  margin: 0 auto;
+  background-image: url(../images/news-letter-bg.png);
   margin-top: 130px;
-}
-
-.footer-1 > img {
-  width: 100%;
-  position: relative;
-}
-
-.footer-1 > img {
-  opacity: 80%;
 }
 
 .footer-1-content {
   width: 100%;
   height: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
   color: white;
   justify-content: center;
   align-items: center;
@@ -463,9 +455,46 @@ header,
     padding: 5px;
   }
 
-  .footer-1 {
+  /* .footer-1 {
+    max-width: 393px;
+    height: 276px;
+    margin: 0 auto;
+    background-image: url(../images/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin-top: 30px;
   }
+
+  .footer-1-content {
+    width: 100%;
+    height: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer-1-content > h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  .footer-1-content-form {
+    width: 321px;
+    height: 50px;
+    margin-top: 0;
+  }
+
+  .footer-1-content-form > input {
+    width: 60%;
+    height: 90%;
+  }
+  .footer-1-content-form > button {
+    width: 20%;
+    height: 100%;
+  } */
+
   .footer-2 {
     margin-top: 30px;
     padding: 0;
