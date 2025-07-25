@@ -132,6 +132,7 @@ header,
 .flower-lover {
   margin-top: 210px;
   gap: 60px;
+  position: relative;
 }
 
 .flower-lover img {
@@ -139,8 +140,19 @@ header,
   height: 597px;
 }
 
+.trusted-badge {
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  top: -150px;
+  left: 350px;
+}
+.trusted-badge > img {
+  width: 100%;
+  height: 100%;
+}
+
 .flower-lover-container {
-  /* text-align: center; */
   align-items: center;
 }
 .flower-lover-title {
@@ -152,7 +164,6 @@ header,
   margin-top: 30px;
   flex-direction: column;
   gap: 30px;
-  /* align-items: center; */
 }
 
 .latest-deals {
@@ -262,7 +273,7 @@ header,
 /* footer 1 */
 
 .footer-1 {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   height: 533px;
   margin: 0 auto;
   background-image: url(../images/news-letter-bg.png);
@@ -293,8 +304,8 @@ header,
   height: 90%;
 }
 .footer-1-content-form > button {
-  width: 20%;
-  height: 100%;
+  width: 186px;
+  /* height: 100%; */
 }
 
 /* footer 2 */
@@ -405,6 +416,9 @@ header,
     width: 358px;
     height: 396px;
   }
+  .trusted-badge {
+    display: none;
+  }
 
   .flower-lover-title {
     font-size: 1.5rem;
@@ -455,6 +469,12 @@ header,
     padding: 5px;
   }
 
+  .footer-1-content > h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
   /* .footer-1 {
     max-width: 393px;
     height: 276px;
@@ -463,9 +483,9 @@ header,
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: 30px;
-  }
+  } */
 
-  .footer-1-content {
+  /*.footer-1-content {
     width: 100%;
     height: 50%;
     color: white;
@@ -474,11 +494,7 @@ header,
     flex-direction: column;
   }
 
-  .footer-1-content > h1 {
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 0;
-  }
+  
 
   .footer-1-content-form {
     width: 321px;
