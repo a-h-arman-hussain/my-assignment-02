@@ -426,14 +426,63 @@ header,
   .latest-deals-image-container {
     flex-direction: column;
   }
+
+  .latest-deals-img-P1_1 > img,
+  .latest-deals-img-P1_2 > img {
+    width: 360px;
+    height: 180px;
+  }
+
+  .latest-deals-P2 {
+    width: 360px;
+    height: 200px;
+  }
+
+  .latest-deals-P2 img {
+    width: 360px;
+    height: 200px;
+  }
+
+  .latest-deals-image-content-P2 {
+    width: 100%;
+    height: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .latest-deals-image-content-P2 > h5 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .latest-deals-image-content-P2 a {
+    color: white;
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+
+  .footer-1 {
+    margin-top: 30px;
+  }
+  .footer-2 {
+    margin-top: 30px;
+    padding: 0;
+  }
   .foorer-2 {
     flex-direction: column;
     justify-content: start;
-    padding: 60px;
+    padding: 0;
   }
   .footer-2-middle {
     flex-direction: column;
     gap: 0;
     text-align: center;
+  }
+  .footer-2-right {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
   }
 }
